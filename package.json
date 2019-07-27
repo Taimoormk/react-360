@@ -19,5 +19,23 @@
   "bugs": {
     "url": "https://github.com/Taimoormk/react-360/issues"
   },
-  "homepage": "https://github.com/Taimoormk/react-360#readme"
+  "homepage": "https://github.com/Taimoormk/react-360#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-360": "^1.1.0",
+    "react-360-web": "^1.1.0",
+    "react-native": "^0.60.4",
+    "three": "^0.106.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "^24.8.0",
+    "react-devtools": "^3.6.3",
+    "react-test-renderer": "^16.8.6",
+    "xopen": "^1.0.0"
+  },
+    "jest": {
+    "preset": "react-360"
+  }
 }
